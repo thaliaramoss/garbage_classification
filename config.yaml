@@ -1,0 +1,4 @@
+directories:
+  model_path: "C:/Users/thzli/OneDrive/Documentos/GarbageCLF/runs/classify/train/weights/best.pt"
+  dataset_dir: "C:/Users/thzli/OneDrive/Documentos/GarbageCLF/garbage_classification"
+  data_path: "C:/Users/thzli/OneDrive/Documentos/GarbageCLF/output_dataset"
