@@ -1,4 +1,4 @@
-utralytics
+utralytics==8.2.77
 PIL
 torchvision
 yaml
