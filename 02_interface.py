@@ -4,13 +4,14 @@ import numpy as np
 from PIL import Image
 from torchvision import transforms
 import yaml
+import os
 
 # Carregar o arquivo YAML
 with open("config.yaml", 'r') as file:
     config = yaml.safe_load(file)
 
 # Acessar os caminhos dos diretórios
-model_path = config['directories']['model_path']
+model_path = os.getenv('MODEL_PATH', './runs/classify/train/weights/best.pt')
 
 # Carregar o modelo YOLOv8 para classificação
 model = YOLO(model_path)
