@@ -2,7 +2,6 @@ import streamlit as st
 from ultralytics import YOLO
 import numpy as np
 from PIL import Image
-import torch
 from torchvision import transforms
 import yaml
 
