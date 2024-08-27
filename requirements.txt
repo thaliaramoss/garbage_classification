@@ -1,5 +1,7 @@
-utralytics==8.2.77
+streamlit
+ultralytics
+numpy
+pandas
 PIL
 torchvision
 yaml
-pip==24.2
