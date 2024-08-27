@@ -2,3 +2,4 @@ utralytics==8.2.77
 PIL
 torchvision
 yaml
+pip==24.2
