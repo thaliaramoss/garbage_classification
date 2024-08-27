@@ -27,7 +27,6 @@ pyarrow==17.0.0
 pydeck==0.9.1
 pyparsing==3.1.2
 pytz==2024.1
-pywin32==305.1
 referencing==0.35.1
 rich==13.7.1
 rpds-py==0.20.0
