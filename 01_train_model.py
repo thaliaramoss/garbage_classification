@@ -14,9 +14,10 @@ model = YOLO('yolov8n-cls.pt')
 # Treinar o modelo
 model.train(
     data= data_path,  # Caminho para o diretório contendo as pastas 'train' e 'val'
-    epochs=50,                    # Número de épocas
+    epochs=100,                    # Número de épocas
     imgsz=224,                    # Tamanho das imagens (224x224 é padrão para classificação)
-    batch=32                      # Tamanho do batch
+    batch=32,                     # Tamanho do batch
+    patience=10                                           
 )
 
 metrics = model.val()
